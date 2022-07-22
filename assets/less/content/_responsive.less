@@ -1,0 +1,96 @@
+// mobile screen
+@media screen and(max-width:650px){
+    .inner-header {
+        .left-logo{
+         width:50%;
+         img{
+            width:80%;
+         }
+        }
+        .center-list{
+          width:100%;
+          height:auto;
+          display:none;
+          #close{
+            display:block;
+            position: absolute;
+            width: 15px;
+            height:15px;
+            z-index: 999;
+            right: 15px;
+            top: 10px;
+            cursor: pointer;
+            // &:hover{
+            //     color:@bg-icon-color;
+            //     filter:grayscale(0%);
+            // }
+          }
+          .list-page-name{
+            display:block;
+            position:fixed;
+            top:0px;
+            left:0px;
+            padding-left:10px;
+            background: #000;
+            z-index: 2;
+            opacity: 1;
+            width: 100%;
+            height: auto;
+            padding-left: 26px;
+            li{
+                padding-bottom:20px;
+                a{
+                    color:#fff;
+                    // &:hover{
+                    //     color:aqua;
+                    //     transition:all 0.5s ease-in-out;
+                    //     transform: scale(1.1);
+                    // }
+                }
+            }
+          }
+        }
+        .right-icon{
+         width:170px;
+         .icon-list{
+            display:flex;
+            li{
+                .fa-search:hover{
+                    cursor: pointer;
+                    color:aqua;
+                }
+                .fa-search::after{
+                    content:"";
+                    border:1px solid #fff;
+                    position:absolute;
+                    height:15px;
+                    margin-left:27px;
+                }
+                .fa-shopping-cart::after{
+                    content:"";
+                    border:1px solid #fff;
+                    position:absolute;
+                    height:15px;
+                    margin-left:27px;
+                }
+                i{
+                    color:#fff;
+                    margin-right:60px;
+                    cursor: pointer;
+                }
+            }
+         }
+        }
+    }
+}
+//tablet
+@media screen and (max-width:850px) and(min-width:650px){
+}
+//laptop and desktop
+@media screen and(max-width:1050px) and(min-width:850px){
+}
+//larger screen
+@media screen and(max-width:5000px) and(min-width:1200px){
+
+}
+
