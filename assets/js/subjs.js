@@ -8,6 +8,12 @@ $(document).ready(function(){
     $('#close').on('click', function(){
         $('.center-list').css('display','none');
     })
+    $('.fa-bars').on('click', function(){
+        $('.center-list').show();
+    })
+    $('.sub-model').on('click', function(){
+        $('.center-list').toggle('hide');
+    })
 })
 function onclickFunction(){
     $('.nav-main-list li a').on('click', function(){

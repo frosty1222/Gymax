@@ -86,16 +86,18 @@
     order: @_val;
 }
 .legend(@weight){
-    font-size:30px;
+    font-size:60px;
     font-weight:@weight;
-    text-transform: uppercase;
+    text-transform:capitalize;
     letter-spacing:1px;
+    // font-family:'Poppins-Bold';
 }
 .card-title(@font-weight){
     font-size:20px;
     color:@color-black;
     font-weight:@font-weight;
     line-height:3;
+    text-transform: uppercase;
 }
 .item-text-size(@font-weight,@font-size){
     font-size:@font-size;
@@ -107,4 +109,5 @@
     font-weight:@font-weight;
     color:@color-text--black;
     text-transform:capitalize;
+    font-family:'Poppins-Regular';
 }
