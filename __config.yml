@@ -1,3 +1,6 @@
-domain: gymax.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://gymax.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl:https://github.com/frosty1222/Gymax
+domain: frosty1222.github.io 
+url: 'https://frosty1222.github.io' 
+title: 'Gymax'
+gitbub:
+  username: frosty1222
+theme_mode: #light|dark
